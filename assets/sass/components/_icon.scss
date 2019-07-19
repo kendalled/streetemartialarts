@@ -1,0 +1,12 @@
+/// Streete Martial Arts
+
+/* Icon */
+
+	.icon {
+		@include icon;
+		position: relative;
+
+		> .label {
+			display: none;
+		}
+	}

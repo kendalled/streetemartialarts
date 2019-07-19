@@ -1,0 +1,12 @@
+/// Streete Martial Arts
+
+/* Header */
+
+	#header {
+		@include padding(4em, 2em);
+		text-align: center;
+
+		@include breakpoint('<=small') {
+			@include padding(3em, 2em)
+		}
+	}
