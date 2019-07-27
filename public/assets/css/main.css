@@ -3601,8 +3601,13 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background-color: #ce5667;
-		color: #f3d5d9;
+		background-image: -moz-linear-gradient(to top, rgba(2, 148, 214, 0.75), rgba(191, 21, 39, 0.75)), url("../../images/banner.jpg");
+		background-image: -webkit-linear-gradient(to top, rgba(2, 148, 214, 0.75), rgba(191, 21, 39, 0.75)), url("../../images/banner.jpg");
+		background-image: -ms-linear-gradient(to top, rgba(2, 148, 214, 0.75), rgba(191, 21, 39, 0.75)), url("../../images/banner.jpg");
+		background-image: linear-gradient(to top, rgba(2, 148, 214, 0.75), rgba(191, 21, 39, 0.75)), url("../../images/banner.jpg");
+		background-attachment: fixed;
+		background-position: center center;
+		background-size: cover;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3617,7 +3622,7 @@ input, select, textarea {
 		justify-content: center;
 		padding: 9em 4em 5em 4em ;
 		min-height: 65vh;
-		background: #ce5667;
+		/*background: #ce5667;*/
 		text-align: center;
 	}
 
